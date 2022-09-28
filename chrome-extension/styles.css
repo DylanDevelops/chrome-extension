@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    width: 250px;
+    height: 200px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/background-2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 2px;
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+    color: #fff;
+    line-height: 100px;
+}
+
+.links-header {
+    text-align: center;
+    color: #fff
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.social-media img:hover{
+    filter: brightness(75%);
+}
